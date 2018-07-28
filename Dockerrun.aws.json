@@ -2,8 +2,8 @@
   "AWSEBDockerrunVersion": 2,
   "containerDefinitions": [
     {
-      "name": "node",
-      "image": "wsieroci/sample-postgres-node:latest",
+      "name": "eb-test",
+      "image": "<AWS_ACCOUNT_ID>.dkr.ecr.us-east-2.amazonaws.com/<NAME>:<TAG>",
       "essential": true,
       "memory": 250,
       "portMappings": [
