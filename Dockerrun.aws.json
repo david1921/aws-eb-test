@@ -5,7 +5,7 @@
       "name": "eb-test",
       "image": "<AWS_ACCOUNT_ID>.dkr.ecr.us-east-2.amazonaws.com/<NAME>:<TAG>",
       "essential": true,
-      "memory": 250,
+      "memory": 128,
       "portMappings": [
         {
           "hostPort": 80,
